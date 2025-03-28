@@ -1,0 +1,25 @@
+# Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+
+# Entorno virtual
+myenv/         # Ignorar el entorno virtual
+
+# Archivos de configuración sensibles
+.env           # Si usas un archivo .env para variables de entorno
+
+# Archivos de la base de datos
+#db.sqlite3     # Si estás utilizando SQLite en algún momento
+#*.sqlite3      # Si no es necesario usarlo en producción
+
+# Archivos generados por el sistema de migraciones
+*.log          # Archivos de log (si los tienes)
+
+# Archivos de base de datos temporales
+*.bak          # Archivos de backup
+
+# Archivos de configuración de PostgreSQL
+# Si usas PostgreSQL, no es necesario agregar la base de datos al repositorio, ya que solo
+# necesitas configurar las credenciales en el servidor de PostgreSQL.
+# Para la configuración local (credenciales), puedes usar un archivo .env (más abajo) para las variables.
